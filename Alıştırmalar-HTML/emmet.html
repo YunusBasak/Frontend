@@ -1,0 +1,64 @@
+<h1>Emmet / Zen Coding</h1>
+<!--
+    etiket isimlerini direkt verebiliyoruz
+    + kardes öğe
+    > icinde öğe
+    ^ yukarı çık ve öğe olustur
+    ^^ iki kez yukarı çık
+    * çarp -> p*3
+    lorem -> çok uzun yazı
+    lorem4 -> 4 kelimelik lorem uret
+    . -> class
+    # -> id
+  -->
+
+<!-- kardes öğe  -> h1+h2  -->
+<h1>kardes</h1>
+<h2>öğe</h2>
+
+<!-- içinde öğe -> ul>li -->
+<ul>
+    <li>içinde öğe</li>
+</ul>
+
+<!-- yukarı çık ve öğe olustur -> ul>li^p*2 (li-liste içinde p-paragraf olamayacağı için ^-yukarı çık diyoruz.) -->
+<ul>
+    <li></li>
+</ul>
+<p></p>
+<p></p>
+
+<!-- * çarp -> ul>li*5 -->
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+<!-- lorem -> p>lorem -->
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tenetur at error est tempore reprehenderit atque, ratione quo vitae soluta odio placeat deleniti mollitia inventore dolorum assumenda ex cupiditate. Odit?</p>
+
+<!-- lorem -> p>lorem4 -->
+<p>Lorem ipsum dolor sit.</p>
+
+<!-- h3.denem>lorem1 -->
+<h3 class="deneme">Lorem.</h3>
+<!-- h3#idolustur>lorem1 -->
+<h3 id="idolustur">Lorem.</h3>
+<!-- h3.deneme#idolustur>lorem1 -->
+<h3 class="deneme" id="idolustur">Lorem.</h3>
+<!-- h3.Kodluyoruz.html -> boşluk (.)işareti kullanılarak yapılır -->
+<h3 class="Kodluyoruz html"></h3>
+
+<!-- ul>li.tepki -->
+<ul>
+    <li class="tepki"></li>
+</ul>
+<!-- ul>.text-red*3 -> li eklemeye gerek kalmadan da yazabiliriz -->
+<ul>
+    <li class="text-red"></li>
+    <li class="text-red"></li>
+    <li class="text-red"></li>
+</ul>
